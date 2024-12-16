@@ -28,7 +28,7 @@ to be added soon.. 😉
 
 #### Problem
 
-$\lim_{n\to\infty} \sum_{k=1}^{n} ( 1 + \frac{2k}{n} )^{2} \times ( \frac{2}{n} )$
+$\lim_{n\to\infty} \sum_{k=1}^{n} ( 1 + \frac{2k}{n} )^2 \times ( \frac{2}{n} )$
 
 #### Solution
 
@@ -86,7 +86,7 @@ $S_n = \sum_{k=1}^{n} f(a+\Delta x) \Delta x$
 
 and 
 
-$\Delta x = \frac{b-a}{n} $
+$\Delta x = \frac{b-a}{n}$
 
 
 
