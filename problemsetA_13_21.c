@@ -411,15 +411,15 @@ void problem26()
 
 int main()
 {
-    /*example();*/
-    problem13();
-    problem14();
-    problem15();
-    problem18();
-    problem22();
-    problem23();
-    problem24();
-    problem25();
-    problem26();
+    example();
+    /*problem13();*/
+    /*problem14();*/
+    /*problem15();*/
+    /*problem18();*/
+    /*problem22();*/
+    /*problem23();*/
+    /*problem24();*/
+    /*problem25();*/
+    /*problem26();*/
     return 0;
 }
