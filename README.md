@@ -4,7 +4,7 @@ I decide to learn C by solving Calculus and Physics problem
 found in any book, mainly from what i got in class(es) as undergrad.
 Geophysics student
 
-So pardon me if you will disgusted by the _MeEsSy_ C code.
+So please bare with the _MeEsSy_ C code.
 
 source: 
 - [2020 - Calculus II - After Mid Term]( https://drive.google.com/drive/folders/1mBOdVSwoBwY-C8VFbK0Sj1ZoNFnRjppd?usp=drive_link )
@@ -12,11 +12,7 @@ source:
 
 # Content of The Repo
 
-
-
-
-
-
+to be added soon.. 😉
 
 ---
 
