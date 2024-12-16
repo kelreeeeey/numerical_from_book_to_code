@@ -36,9 +36,7 @@ $
 
 the problem would be simplified to
 
-$
-\lim_{n\to\infty} \sum_{k=1}^{n} ( 1 + \frac{2\times2\times k}{n} + \frac{4\times k^2}{n^2} ) \times ( \frac{2}{n} )
-$
+$\lim_{n\to\infty} \sum_{k=1}^{n} ( 1 + \frac{2\times2\times k}{n} + \frac{4\times k^2}{n^2} ) \times ( \frac{2}{n} )$
 
 and then evaluated as
 
