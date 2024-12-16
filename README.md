@@ -38,6 +38,9 @@ here's some example of the c code to calculate area under given curve $f(x)$
 I compute area based on the rigth-partition and summation rules.
 
 ```c
+/* all of the *summation_f should take j as (1/n) so the function decomposing 
+ * should ended as a function of j that take the j as 1/n
+*/
 typedef struct { double partition, summation; } area_under_curve_t ;
 typedef double (*partition_f)(double  );
 typedef void (*summation_f)(double * , double  );
@@ -55,7 +58,6 @@ void areaWithinInterval(
     {
         double temp_2 = func->partition(i) * div;
         temp += temp_2;
-        /*printf("i=%lf temp2=%lf, div=%lf\n", i, temp_2, div);*/
     }
     areas->partition = temp;
     func->summation(&areas->summation, div); // div is supposed to be 1/n 
@@ -122,6 +124,9 @@ k:5001 | partition = 0.333433 | summation = 0.333433
 so far i've solved and coded several of sets of problem-solution
 
 ```c
+/* all of the *summation_f should take j as (1/n) so the function decomposing 
+ * should ended as a function of j that take the j as 1/n
+*/
 double A22Partition_f(double x) { return ( 4 * x * x * x ) + ( 2 * x); };
 void A22Summation_f(double *x, double j) { 
     double temp = 4.0 * (1.0 + j);
