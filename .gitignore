@@ -1,3 +1,4 @@
 *.exe
 *.so
 __pycache__/
+materials/
