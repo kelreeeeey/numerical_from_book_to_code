@@ -1,5 +1,6 @@
 # Numerical Thingy _from book to code_, Calculus, Physics and allthat - written in C and Python
 
+
 I decide to learn C by solving Calculus and Physics problem
 found in any book, mainly from what i got in class(es) as undergrad.
 Geophysics student
@@ -367,4 +368,22 @@ and
 $\Delta x = \frac{b-a}{n}$
 
 
+# Logs
 
+## 26/12/2024
+
+Add more subdirectories for the sake of better separation
+
+additons:
+
+- bins/
+    will be holdin any final program sourced directly from `source/*.c`
+
+- material/
+    will be containing any source material, planned to be in markdown formats but pdfs or even pptx would ok too
+
+- python_libs/
+    will be containing by the mid representation of shared-object loaded in python class so the `./main.py` could read it.
+
+- shared_objects/
+    the compiled shared object for python from `source/*.c`
