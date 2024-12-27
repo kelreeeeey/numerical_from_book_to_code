@@ -1,4 +1,4 @@
 bins/*.exe
 shared_objects/*.so
-python-lib/__pycache__/
+python_lib/__pycache__/
 materials/non_codings/

@@ -1,4 +1,4 @@
-from base import _Base as Base
+from .base import _Base as Base
 import cffi
 
 class ProblemA1(Base):
