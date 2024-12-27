@@ -20,7 +20,7 @@ notes:
 
  - [About C Headers and Libraries](../materials/codings/about_c_headers_and_libraries.md)
 
- - [c_books\/Directives](../materials/codings/c_books/7.3. Directives.md)
+ - [c_books - Directives](../materials/codings/c_books/7.3. Directives.md)
 
      >NOTE: `c_books/` are copied from my obsidian_vaults, they're might be not as updated as the other notes
 
