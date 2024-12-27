@@ -14,7 +14,7 @@ void quadraticSummation_f(double *x, double j)
     *x = ( ( 1.0 + j )*( 2.0 + j ) ) / 6.0;
 };
 
-int main()
+void example()
 {
     int n;
     double left, right;
@@ -38,5 +38,10 @@ int main()
         printf("k:%d | partition = %lf | summation = %lf\n",
                n, mainOutputs.partition, mainOutputs.summation);
     }
+}
+
+int main()
+{
+    example();
     return 0;
 }

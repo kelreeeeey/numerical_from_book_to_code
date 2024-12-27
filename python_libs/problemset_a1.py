@@ -1,13 +1,7 @@
-from os.path import join as join_path, dirname
+from base import _Base as Base
 import cffi
 
-class _Base(object):
-    __shared_object_path__ = join_path(dirname( dirname(__file__) ), "shared_objects")
-
-    def object_path(self, shared_object_name: str) -> str:
-        return join_path(self.__shared_object_path__, shared_object_name )
-
-class ProblemA1(_Base):
+class ProblemA1(Base):
     def __init__(self):
         ffi = cffi.FFI()
         ffi.cdef("""
