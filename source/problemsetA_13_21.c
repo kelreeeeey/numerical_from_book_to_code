@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include "area_within_interval.h"
 
-typedef struct { double partition, summation; } area_under_curve_t ;
-typedef double (*partition_f)(double  );
-typedef void (*summation_f)(double * , double  );
-typedef struct { partition_f partition; summation_f summation; } func_area_under_curve_t ;
+/*
+ * Definiton of `areaWithinInterval`
+ */
 void areaWithinInterval(func_area_under_curve_t *func, area_under_curve_t *areas,
                         double left, double right, int interval)
 {
@@ -15,7 +15,6 @@ void areaWithinInterval(func_area_under_curve_t *func, area_under_curve_t *areas
     {
         double temp_2 = func->partition(i) * div;
         temp += temp_2;
-        /*printf("i=%lf temp2=%lf, div=%lf\n", i, temp_2, div);*/
     }
     areas->partition = temp;
     func->summation(&areas->summation, div); // div is supposed to be 1/n 

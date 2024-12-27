@@ -1,4 +1,3 @@
-#include "problem_set_4_1.h"
 #include <stdio.h>
 
 double constantSummation (double n, double constant_) { return n * constant_; }
