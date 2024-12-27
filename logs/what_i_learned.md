@@ -7,10 +7,10 @@ note_type: brain_log
 
 This file is my brain dump. i will put everything i learned in in here.
 
-The contents of this file will be separated per day as a level 1 section of markdown.
+The contents of this file will be separated per day as a level 1 heading of markdown.
 
 
-# 27-12-2024
+## 27-12-2024
 
 i learn about what the hell is header file, why it bother exists, and how propely make use of it.
 
@@ -18,11 +18,11 @@ I've watched 2 YouTube videos about c header file, and C book (online book about
 
 notes:
 
- - [[../materials/codings/about_c_headers_and_libraries.md]]
+ - [About C Headers and Libraries](../materials/codings/about_c_headers_and_libraries.md)
 
- - [[../materials/codings/c_books/7.3. Directives.md]]
+ - [c_books/Directives](../materials/codings/c_books/7.3. Directives.md)
 
-     >NOTE: `c_books/` are copied from my obsidian_vaults, they're might be not as updated as the other noteds
+     >NOTE: `c_books/` are copied from my obsidian_vaults, they're might be not as updated as the other notes
 
 Key Points:
 
