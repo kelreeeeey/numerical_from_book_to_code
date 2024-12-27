@@ -4,10 +4,8 @@ typedef struct { double partition, summation; } area_under_curve_t ;
 typedef double (*partition_f)(double  );
 typedef void (*summation_f)(double * , double  );
 typedef struct { partition_f partition; summation_f summation; } func_area_under_curve_t ;
-void areaWithinInterval(
-        func_area_under_curve_t *func, 
-        area_under_curve_t *areas,
-        double left, double right, int interval)
+void areaWithinInterval(func_area_under_curve_t *func, area_under_curve_t *areas,
+                        double left, double right, int interval)
 {
     double div = 1.0 / (double) interval;
     double sub_interval = (right-left) * div;
