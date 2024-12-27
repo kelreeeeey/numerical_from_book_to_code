@@ -39,7 +39,7 @@ _Why?_
 
 - include guards
 
-    make sure the include directive only runs once for each call
+    make sure the `#include` macro only runs once for each call
 
 - other include files, 
 
