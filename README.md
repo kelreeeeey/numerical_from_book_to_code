@@ -1,6 +1,5 @@
 # Numerical Thingy _from book to code_, Calculus, Physics and allthat - written in C and Python
 
-
 I decide to learn C by solving Calculus and Physics problem
 found in any book, mainly from what i got in class(es) as undergrad.
 Geophysics student
@@ -33,29 +32,22 @@ here's how i write the code
 5. ofc compile and check the results
 6. write a wrapper for python
 
+## How to, idk, use it?
 
-# Logs
+all of the code that are written in C and Zig are located in `source/` directory. per 28/12/2014, i've wrote these:
 
-## 26/12/2024
+```raw
+  Dec 16 08:16 area_under_curve.c
+  Dec 27 21:55 area_within_interval.c
+  Dec 27 21:54 area_within_interval.h
+  Dec 28 04:05 area_within_interval.zig
+  Dec 27 22:59 example_area_within_interval.c
+  Dec 28 02:00 function_as_parameter.zig
+  Dec 27 20:51 problem_set_4_1.c
+  Dec 27 21:36 problemsetA_13_21.c
+```
+most of c codes above were my initial attempt on learning C throught calculus material i learned in Uni.
 
-Add more subdirectories for the sake of better separation
+The zig code [area_within_interval.zig](source/area_within_interval.zig) is my first attempt to re-write the [area_within_interval.c](source/area_within_interval.c) and [area_within_interval.h] in Zig.
 
-additons:
 
-- bins/
-    will be holdin any final program sourced directly from `source/*.c`
-
-- material/
-    will be containing any source material, planned to be in markdown formats but pdfs or even pptx would ok too
-
-- python_libs/
-    will be containing by the mid representation of shared-object loaded in python class so the `./main.py` could read it.
-
-- shared_objects/
-    the compiled shared object for python from `source/*.c`
-
-## 27/12/2024
-
-- i think i wrote the zig version of problem: `area within interval`
-
-- tried to messing up with shared objects in python for problem `area within interval`, and i coudln't not get things run as i expected.
