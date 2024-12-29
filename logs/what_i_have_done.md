@@ -34,5 +34,9 @@ additons:
 ## 27/12/2024
 
 - so happy i can compile 2 different stuff into single executable file. haha! :D
+- i've write my first c header
 
+## 29/12/2024
 
+- keep on swimming, write more thorough README.md, included `how to use/run the scripts` so other can actually know how use it.
+- fixing the  python code for `problem_set_4_1` for the new shell script that produces the shared objects.
