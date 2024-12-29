@@ -30,3 +30,9 @@ additons:
 - i think i wrote the zig version of problem: `area within interval`
 
 - tried to messing up with shared objects in python for problem `area within interval`, and i coudln't not get things run as i expected.
+
+## 27/12/2024
+
+- so happy i can compile 2 different stuff into single executable file. haha! :D
+
+
