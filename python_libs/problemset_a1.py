@@ -10,7 +10,7 @@ class ProblemA1(Base):
             double quadraticSummation (double n);
             double bicubicSummation (double n);
         """)
-        self.lib = ffi.dlopen(self.object_path("problem.so"))
+        self.lib = ffi.dlopen(self.object_path("problem_set_4_1.so"))
     def constantSummation(self, n, constant): return self.lib.constantSummation(n, constant)
     def linearSummation(self, n): return self.lib.linearSummation(n)
     def quadraticSummation(self, n): return self.lib.quadraticSummation(n)

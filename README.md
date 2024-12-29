@@ -72,6 +72,8 @@ shared objects.
 The `build_source.sh` will compile the C scripts to executables located in `bins/` sub-dir
 and shared objects (later for python usage) located in `shared_objects/` sub-dir
 
+The script also empties the `bins/` and `shared_objects` before produces new executables and shared objects.
+
 from root directory, make the bash script `build_source.sh` executable.
 
 ```bash

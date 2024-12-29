@@ -1,5 +1,3 @@
-bins/*.exe
-shared_objects/*.so
 python_libs/__pycache__/
 materials/non_codings/paul_dawnkins_calculus_2_outlines.md
 materials/non_codings/umi_mahmunah_hanung_calculus_2_lecture_1.md
