@@ -10,7 +10,7 @@ void setA_1_to_8 ()
     float setA_1,setA_2,setA_3,setA_4,setA_7,setA_8;
     double setA_5,setA_6;
     const double N7=100, N8=100; 
-    
+
     setA_1 = constantSummation(6.0, 1.0);
     setA_2 = constantSummation(250.0, 1.0);
     setA_3 = linearSummation(15.0);
