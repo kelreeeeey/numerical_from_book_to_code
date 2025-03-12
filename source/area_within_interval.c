@@ -18,7 +18,11 @@ void areaWithinInterval(
     for (i = left; i <= right; i += sub_interval)
     {
         double temp_2 = func->partition(i) * div;
-        temp += temp_2;
+        if ( temp_2 < 0 ) {
+            temp += -1 * temp_2;
+        } else {
+            temp += temp_2;
+        }
     }
     areas->partition = temp;
     func->summation(&areas->summation, div); // div is supposed to be 1/n
